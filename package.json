@@ -1,0 +1,18 @@
+{
+  "name": "unit-testing-project",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@vitest/coverage-v8": "4.1.2",
+    "vitest": "^4.1.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
