@@ -3,6 +3,7 @@ export type User = {
   name: string;
   role?: string;
   email?: string;
+  isActive?: boolean;
 };
 
 export type NewUserData = {
