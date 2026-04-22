@@ -8,11 +8,20 @@
     "coverage": "vitest run --coverage"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
     "@types/bun": "latest",
+    "@types/react": "^19.2.14",
     "@vitest/coverage-v8": "4.1.2",
+    "jsdom": "^29.0.2",
     "vitest": "^4.1.2"
   },
   "peerDependencies": {
     "typescript": "^5"
+  },
+  "dependencies": {
+    "@testing-library/user-event": "^14.6.1",
+    "@vitejs/plugin-react": "^6.0.1",
+    "react": "^19.2.5"
   }
 }
